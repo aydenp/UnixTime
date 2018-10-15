@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.23.1" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.12"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
@@ -16,10 +16,10 @@
                     <items>
                         <group alignment="center" verticalAlignment="center" layout="vertical" id="YQ6-Bq-BmH">
                             <items>
-                                <label alignment="left" verticalAlignment="center" text="preface" textAlignment="left" minimumScaleFactor="0.40000000000000002" id="AN4-7E-2tb">
+                                <label alignment="left" verticalAlignment="center" text="preface" textAlignment="left" minimumScaleFactor="0.20000000000000001" id="AN4-7E-2tb">
                                     <fontDescription key="font" type="system" pointSize="18"/>
                                 </label>
-                                <label alignment="left" verticalAlignment="center" text="date" textAlignment="left" id="Ywl-jW-saj">
+                                <label alignment="left" verticalAlignment="center" text="date" textAlignment="left" minimumScaleFactor="0.5" id="Ywl-jW-saj">
                                     <fontDescription key="font" type="system" pointSize="18"/>
                                 </label>
                                 <group width="1" height="2" alignment="center" verticalAlignment="center" layout="vertical" id="S1v-8t-mJe"/>
