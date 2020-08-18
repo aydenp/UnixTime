@@ -20,9 +20,9 @@
 		C31776B62173EDEF005C8DEA /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31776B52173EDEF005C8DEA /* InterfaceController.m */; };
 		C31776B92173EDEF005C8DEA /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31776B82173EDEF005C8DEA /* ExtensionDelegate.m */; };
 		C31776BB2173EDF0005C8DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31776BA2173EDF0005C8DEA /* Assets.xcassets */; };
-		C37847B221744BB900D2A477 /* ABJavaScriptStringTimeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C37847B121744BB900D2A477 /* ABJavaScriptStringTimeProvider.m */; };
-		C37847B521744E8300D2A477 /* ABAppleStringTimeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C37847B421744E8300D2A477 /* ABAppleStringTimeProvider.m */; };
-		C3B0D6F0217445EC00723525 /* ABUnixStringTimeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B0D6EF217445EC00723525 /* ABUnixStringTimeProvider.m */; };
+		C3A2391224EC5A460077C49B /* ABAppleStringTimeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2390B24EC5A460077C49B /* ABAppleStringTimeProvider.m */; };
+		C3A2391324EC5A460077C49B /* ABJavaScriptStringTimeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2390E24EC5A460077C49B /* ABJavaScriptStringTimeProvider.m */; };
+		C3A2391424EC5A460077C49B /* ABUnixStringTimeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2391024EC5A460077C49B /* ABUnixStringTimeProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,13 +89,13 @@
 		C31776B82173EDEF005C8DEA /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		C31776BA2173EDF0005C8DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31776BC2173EDF0005C8DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C37847B021744BB900D2A477 /* ABJavaScriptStringTimeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABJavaScriptStringTimeProvider.h; sourceTree = "<group>"; };
-		C37847B121744BB900D2A477 /* ABJavaScriptStringTimeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABJavaScriptStringTimeProvider.m; sourceTree = "<group>"; };
-		C37847B321744E8200D2A477 /* ABAppleStringTimeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAppleStringTimeProvider.h; sourceTree = "<group>"; };
-		C37847B421744E8300D2A477 /* ABAppleStringTimeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAppleStringTimeProvider.m; sourceTree = "<group>"; };
-		C3B0D6ED2174452300723525 /* ABStringTimeProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABStringTimeProvider.h; sourceTree = "<group>"; };
-		C3B0D6EE217445EC00723525 /* ABUnixStringTimeProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABUnixStringTimeProvider.h; sourceTree = "<group>"; };
-		C3B0D6EF217445EC00723525 /* ABUnixStringTimeProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABUnixStringTimeProvider.m; sourceTree = "<group>"; };
+		C3A2390B24EC5A460077C49B /* ABAppleStringTimeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAppleStringTimeProvider.m; sourceTree = "<group>"; };
+		C3A2390C24EC5A460077C49B /* ABStringTimeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABStringTimeProvider.h; sourceTree = "<group>"; };
+		C3A2390D24EC5A460077C49B /* ABAppleStringTimeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAppleStringTimeProvider.h; sourceTree = "<group>"; };
+		C3A2390E24EC5A460077C49B /* ABJavaScriptStringTimeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABJavaScriptStringTimeProvider.m; sourceTree = "<group>"; };
+		C3A2390F24EC5A460077C49B /* ABUnixStringTimeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUnixStringTimeProvider.h; sourceTree = "<group>"; };
+		C3A2391024EC5A460077C49B /* ABUnixStringTimeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUnixStringTimeProvider.m; sourceTree = "<group>"; };
+		C3A2391124EC5A460077C49B /* ABJavaScriptStringTimeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABJavaScriptStringTimeProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,15 +169,15 @@
 				C31776B52173EDEF005C8DEA /* InterfaceController.m */,
 				C31776B72173EDEF005C8DEA /* ExtensionDelegate.h */,
 				C31776B82173EDEF005C8DEA /* ExtensionDelegate.m */,
+				C3A2390D24EC5A460077C49B /* ABAppleStringTimeProvider.h */,
+				C3A2390B24EC5A460077C49B /* ABAppleStringTimeProvider.m */,
+				C3A2391124EC5A460077C49B /* ABJavaScriptStringTimeProvider.h */,
+				C3A2390E24EC5A460077C49B /* ABJavaScriptStringTimeProvider.m */,
+				C3A2390C24EC5A460077C49B /* ABStringTimeProvider.h */,
+				C3A2390F24EC5A460077C49B /* ABUnixStringTimeProvider.h */,
+				C3A2391024EC5A460077C49B /* ABUnixStringTimeProvider.m */,
 				C31776BA2173EDF0005C8DEA /* Assets.xcassets */,
 				C31776BC2173EDF0005C8DEA /* Info.plist */,
-				C3B0D6ED2174452300723525 /* ABStringTimeProvider.h */,
-				C3B0D6EE217445EC00723525 /* ABUnixStringTimeProvider.h */,
-				C3B0D6EF217445EC00723525 /* ABUnixStringTimeProvider.m */,
-				C37847B021744BB900D2A477 /* ABJavaScriptStringTimeProvider.h */,
-				C37847B121744BB900D2A477 /* ABJavaScriptStringTimeProvider.m */,
-				C37847B321744E8200D2A477 /* ABAppleStringTimeProvider.h */,
-				C37847B421744E8300D2A477 /* ABAppleStringTimeProvider.m */,
 			);
 			path = "UnixTime WatchKit Extension";
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C31776C32173EDF0005C8DEA /* Build configuration list for PBXNativeTarget "UnixTime WatchKit App" */;
 			buildPhases = (
-				C3B0D6F221744A1E00723525 /* Copy SF Mono */,
+				C3A2391524EC5AB60077C49B /* Copy SF Mono */,
 				C317769E2173EDEE005C8DEA /* Resources */,
 				C31776C22173EDF0005C8DEA /* Embed App Extensions */,
 			);
@@ -246,7 +246,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = AppleBetas;
+				ORGANIZATIONNAME = "Ayden Panhuyzen";
 				TargetAttributes = {
 					C31776892173EDED005C8DEA = {
 						CreatedOnToolsVersion = 10.0;
@@ -310,9 +310,9 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C3B0D6F221744A1E00723525 /* Copy SF Mono */ = {
+		C3A2391524EC5AB60077C49B /* Copy SF Mono */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -326,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Copy our Mac's SF Mono to the watch app\ncp \"/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SFMono-Regular.otf\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/\"\n";
+			shellScript = "# Copy our Mac's SF Mono to the watch app\nTERMINAL_PATH=$(lsappinfo info -only bundlepath com.apple.Terminal | cut -d '\"' -f4)\ncp \"$TERMINAL_PATH/Contents/Resources/Fonts/SFMono-Regular.otf\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -345,11 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37847B221744BB900D2A477 /* ABJavaScriptStringTimeProvider.m in Sources */,
+				C3A2391324EC5A460077C49B /* ABJavaScriptStringTimeProvider.m in Sources */,
 				C31776B92173EDEF005C8DEA /* ExtensionDelegate.m in Sources */,
-				C37847B521744E8300D2A477 /* ABAppleStringTimeProvider.m in Sources */,
+				C3A2391224EC5A460077C49B /* ABAppleStringTimeProvider.m in Sources */,
+				C3A2391424EC5A460077C49B /* ABUnixStringTimeProvider.m in Sources */,
 				C31776B62173EDEF005C8DEA /* InterfaceController.m in Sources */,
-				C3B0D6F0217445EC00723525 /* ABUnixStringTimeProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,14 +513,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6N2S3YHMFB;
 				INFOPLIST_FILE = "UnixTime WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = applebetas.ios.UnixTime.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = madebyayden.ios.UnixTime.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -534,14 +534,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6N2S3YHMFB;
 				INFOPLIST_FILE = "UnixTime WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = applebetas.ios.UnixTime.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = madebyayden.ios.UnixTime.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -555,10 +555,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6N2S3YHMFB;
 				IBSC_MODULE = UnixTime_WatchKit_Extension;
 				INFOPLIST_FILE = "UnixTime WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = applebetas.ios.UnixTime.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = madebyayden.ios.UnixTime.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -572,10 +572,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6N2S3YHMFB;
 				IBSC_MODULE = UnixTime_WatchKit_Extension;
 				INFOPLIST_FILE = "UnixTime WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = applebetas.ios.UnixTime.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = madebyayden.ios.UnixTime.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -589,13 +589,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6N2S3YHMFB;
 				INFOPLIST_FILE = UnixTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = applebetas.ios.UnixTime;
+				PRODUCT_BUNDLE_IDENTIFIER = madebyayden.ios.UnixTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -606,13 +606,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6N2S3YHMFB;
 				INFOPLIST_FILE = UnixTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = applebetas.ios.UnixTime;
+				PRODUCT_BUNDLE_IDENTIFIER = madebyayden.ios.UnixTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
